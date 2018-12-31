@@ -1,0 +1,504 @@
+[INFO] [2018-12-20 11:41:16][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 11:41:16][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 11:41:16 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 11:41:16][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 11:41:17][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 11:41:17][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 11:41:17][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1141 ms
+[INFO] [2018-12-20 11:41:17][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 11:41:17][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 11:41:17 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 11:41:17][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 11:41:17][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 11:41:18][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test] onto handler 'countController'
+[INFO] [2018-12-20 11:41:18][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test.*] onto handler 'countController'
+[INFO] [2018-12-20 11:41:18][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test/] onto handler 'countController'
+[INFO] [2018-12-20 11:41:18][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2] onto handler 'countController'
+[INFO] [2018-12-20 11:41:18][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2.*] onto handler 'countController'
+[INFO] [2018-12-20 11:41:18][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2/] onto handler 'countController'
+[INFO] [2018-12-20 11:41:18][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 422 ms
+[WARN] [2018-12-20 11:42:33][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/Look/] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 11:42:33][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 11:42:38][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/Look/test] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 11:43:10][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/Look/test] in DispatcherServlet with name 'mvc-dispatcher'
+[INFO] [2018-12-20 11:47:13][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 11:41:17 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 11:47:13][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 11:41:16 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 11:56:23][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 11:56:23][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 11:56:23 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 11:56:23][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 11:56:24][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 11:56:24][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 11:56:24][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1001 ms
+[INFO] [2018-12-20 11:56:24][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 11:56:24][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 11:56:24 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 11:56:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 11:56:24][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 11:56:25][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test] onto handler 'countController'
+[INFO] [2018-12-20 11:56:25][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test.*] onto handler 'countController'
+[INFO] [2018-12-20 11:56:25][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test/] onto handler 'countController'
+[INFO] [2018-12-20 11:56:25][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2] onto handler 'countController'
+[INFO] [2018-12-20 11:56:25][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2.*] onto handler 'countController'
+[INFO] [2018-12-20 11:56:25][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2/] onto handler 'countController'
+[INFO] [2018-12-20 11:56:25][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 435 ms
+[WARN] [2018-12-20 11:57:48][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/echarts.min.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 11:57:48][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/dark.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 11:58:10][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/echarts.min.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 11:58:10][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/dark.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 11:58:10][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/echarts.min.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 11:58:10][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/dark.js] in DispatcherServlet with name 'mvc-dispatcher'
+[INFO] [2018-12-20 12:45:45][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 11:56:24 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 12:45:45][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 11:56:23 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 12:48:37][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 12:48:37][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 12:48:37 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 12:48:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 12:48:38][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 12:48:38][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 12:48:38][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 958 ms
+[INFO] [2018-12-20 12:48:38][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 12:48:38][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 12:48:38 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 12:48:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 12:48:38][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 12:48:39][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test] onto handler 'countController'
+[INFO] [2018-12-20 12:48:39][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test.*] onto handler 'countController'
+[INFO] [2018-12-20 12:48:39][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test/] onto handler 'countController'
+[INFO] [2018-12-20 12:48:39][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2] onto handler 'countController'
+[INFO] [2018-12-20 12:48:39][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2.*] onto handler 'countController'
+[INFO] [2018-12-20 12:48:39][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2/] onto handler 'countController'
+[INFO] [2018-12-20 12:48:39][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 437 ms
+[WARN] [2018-12-20 12:49:35][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/echarts.min.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 12:49:35][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/dark.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 12:50:47][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/echarts.min.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 12:50:47][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/dark.js] in DispatcherServlet with name 'mvc-dispatcher'
+[INFO] [2018-12-20 12:50:52][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 12:48:38 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 12:50:52][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 12:48:37 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 12:51:15][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 12:51:15][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 12:51:15 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 12:51:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 12:51:16][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 12:51:16][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 12:51:16][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1106 ms
+[INFO] [2018-12-20 12:51:16][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 12:51:16][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 12:51:16 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 12:51:16][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 12:51:16][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 12:51:17][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test] onto handler 'countController'
+[INFO] [2018-12-20 12:51:17][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test.*] onto handler 'countController'
+[INFO] [2018-12-20 12:51:17][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test/] onto handler 'countController'
+[INFO] [2018-12-20 12:51:17][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2] onto handler 'countController'
+[INFO] [2018-12-20 12:51:17][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2.*] onto handler 'countController'
+[INFO] [2018-12-20 12:51:17][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2/] onto handler 'countController'
+[INFO] [2018-12-20 12:51:17][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 448 ms
+[WARN] [2018-12-20 12:51:23][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/echarts.min.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 12:51:23][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/dark.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 13:06:33][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/dark.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 13:06:33][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/echarts.min.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 13:06:33][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/dark.js] in DispatcherServlet with name 'mvc-dispatcher'
+[INFO] [2018-12-20 13:09:07][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 12:51:16 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 13:09:07][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 12:51:15 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 13:09:26][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 13:09:26][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 13:09:26 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 13:09:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 13:09:26][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 13:09:26][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 13:09:27][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 967 ms
+[INFO] [2018-12-20 13:09:27][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 13:09:27][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 13:09:27 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 13:09:27][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 13:09:27][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 13:09:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test] onto handler 'countController'
+[INFO] [2018-12-20 13:09:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test.*] onto handler 'countController'
+[INFO] [2018-12-20 13:09:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test/] onto handler 'countController'
+[INFO] [2018-12-20 13:09:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2] onto handler 'countController'
+[INFO] [2018-12-20 13:09:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2.*] onto handler 'countController'
+[INFO] [2018-12-20 13:09:27][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test2/] onto handler 'countController'
+[INFO] [2018-12-20 13:09:27][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 450 ms
+[WARN] [2018-12-20 13:10:51][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/dark.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 13:10:51][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/echarts.min.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 13:10:58][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/echarts.min.js] in DispatcherServlet with name 'mvc-dispatcher'
+[WARN] [2018-12-20 13:10:58][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/js/dark.js] in DispatcherServlet with name 'mvc-dispatcher'
+[INFO] [2018-12-20 13:14:14][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 13:09:27 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 13:14:14][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 13:09:26 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 13:41:32][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 13:41:32][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 13:41:32 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 13:41:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 13:41:33][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 13:41:33][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 13:41:34][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1311 ms
+[INFO] [2018-12-20 13:41:34][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 13:41:34][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 13:41:34 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 13:41:34][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[ERROR] [2018-12-20 13:41:34][org.springframework.web.servlet.DispatcherServlet]Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 18 in XML document from class path resource [spring-mvc.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 21; cvc-complex-type.2.4.b: The content of element 'mvc:interceptor' is not complete. One of '{"http://www.springframework.org/schema/mvc":exclude-mapping, "http://www.springframework.org/schema/beans":bean, "http://www.springframework.org/schema/beans":ref}' is expected.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 21; cvc-complex-type.2.4.b: The content of element 'mvc:interceptor' is not complete. One of '{"http://www.springframework.org/schema/mvc":exclude-mapping, "http://www.springframework.org/schema/beans":bean, "http://www.springframework.org/schema/beans":ref}' is expected.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.error(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.reportSchemaError(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.elementLocallyValidComplexType(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.elementLocallyValidType(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.processElementContent(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.handleEndElement(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.endElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanEndElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 29 more
+[INFO] [2018-12-20 13:45:57][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 13:41:32 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 13:46:15][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 13:46:15][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 13:46:15 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 13:46:15][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 13:46:15][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 13:46:15][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 13:46:16][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 990 ms
+[INFO] [2018-12-20 13:46:16][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 13:46:16][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 13:46:16 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 13:46:16][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[ERROR] [2018-12-20 13:46:16][org.springframework.web.servlet.DispatcherServlet]Context initialization failed
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 18 in XML document from class path resource [spring-mvc.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 21; cvc-complex-type.2.4.b: The content of element 'mvc:interceptor' is not complete. One of '{"http://www.springframework.org/schema/mvc":exclude-mapping, "http://www.springframework.org/schema/beans":bean, "http://www.springframework.org/schema/beans":ref}' is expected.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:399)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:452)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:663)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:629)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:677)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:548)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:489)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:136)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:160)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1280)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1193)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:1088)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:5176)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5460)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 18; columnNumber: 21; cvc-complex-type.2.4.b: The content of element 'mvc:interceptor' is not complete. One of '{"http://www.springframework.org/schema/mvc":exclude-mapping, "http://www.springframework.org/schema/beans":bean, "http://www.springframework.org/schema/beans":ref}' is expected.
+	at org.apache.xerces.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at org.apache.xerces.util.ErrorHandlerWrapper.error(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.XMLErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.reportSchemaError(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.elementLocallyValidComplexType(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.elementLocallyValidType(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.processElementContent(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.handleEndElement(Unknown Source)
+	at org.apache.xerces.impl.xs.XMLSchemaValidator.endElement(Unknown Source)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanEndElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:76)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	... 29 more
+[INFO] [2018-12-20 13:54:24][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 13:46:15 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 13:57:51][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 13:57:51][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 13:57:51 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 13:57:51][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 13:57:51][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 13:57:51][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 13:57:52][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 989 ms
+[INFO] [2018-12-20 13:57:52][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 13:57:52][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 13:57:52 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 13:57:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 13:57:52][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 13:57:52][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test.do] onto handler 'countController'
+[INFO] [2018-12-20 13:57:52][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 431 ms
+[INFO] [2018-12-20 15:10:20][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 13:57:52 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 15:10:20][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 13:57:51 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 15:51:13][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 15:51:13][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 15:51:13 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 15:51:13][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 15:51:14][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 15:51:14][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 15:51:14][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 976 ms
+[INFO] [2018-12-20 15:51:14][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 15:51:14][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 15:51:14 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 15:51:14][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 15:51:14][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 15:51:14][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test.do] onto handler 'countController'
+[INFO] [2018-12-20 15:51:14][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.do] onto handler 'countController'
+[INFO] [2018-12-20 15:51:14][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 436 ms
+[WARN] [2018-12-20 15:51:39][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/test2.do] in DispatcherServlet with name 'mvc-dispatcher'
+[INFO] [2018-12-20 15:54:26][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 15:51:14 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 15:54:26][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 15:51:13 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 16:12:32][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 16:12:32][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 16:12:32 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 16:12:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 16:12:33][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 16:12:33][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 16:12:33][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1169 ms
+[INFO] [2018-12-20 16:12:33][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 16:12:33][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 16:12:33 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 16:12:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 16:12:33][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 16:12:34][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test.do] onto handler 'countController'
+[INFO] [2018-12-20 16:12:34][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.do] onto handler 'countController'
+[INFO] [2018-12-20 16:12:34][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 567 ms
+[INFO] [2018-12-20 16:14:55][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 16:12:33 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 16:14:55][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 16:12:32 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 16:15:28][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 16:15:28][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 16:15:28 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 16:15:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 16:15:29][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 16:15:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 16:15:29][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1025 ms
+[INFO] [2018-12-20 16:15:29][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 16:15:29][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 16:15:29 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 16:15:29][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 16:15:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 16:15:30][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/test.do] onto handler 'countController'
+[INFO] [2018-12-20 16:15:30][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.do] onto handler 'countController'
+[INFO] [2018-12-20 16:15:30][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 428 ms
+[INFO] [2018-12-20 17:52:38][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 16:15:29 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 17:52:38][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 16:15:28 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 17:52:54][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 17:52:54][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 17:52:54 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 17:52:54][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 17:52:54][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 17:52:54][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 17:52:55][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1085 ms
+[INFO] [2018-12-20 17:52:55][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 17:52:55][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 17:52:55 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 17:52:55][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 17:52:55][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 17:52:55][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/value.do] onto handler 'countController'
+[INFO] [2018-12-20 17:52:55][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.do] onto handler 'countController'
+[INFO] [2018-12-20 17:52:55][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 474 ms
+[INFO] [2018-12-20 17:53:49][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 17:52:55 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 17:53:49][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 17:52:54 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 17:59:34][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 17:59:34][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 17:59:34 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 17:59:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 17:59:35][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 17:59:35][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 17:59:35][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1044 ms
+[INFO] [2018-12-20 17:59:35][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 17:59:35][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 17:59:35 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 17:59:35][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 17:59:36][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 17:59:36][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/value.do] onto handler 'countController'
+[INFO] [2018-12-20 17:59:36][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.do] onto handler 'countController'
+[INFO] [2018-12-20 17:59:36][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 444 ms
+[INFO] [2018-12-20 18:11:24][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 17:59:35 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:11:24][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 17:59:34 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 18:11:40][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 18:11:40][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 18:11:40 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 18:11:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 18:11:41][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 18:11:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 18:11:41][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1176 ms
+[INFO] [2018-12-20 18:11:41][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 18:11:41][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:11:41 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:11:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 18:11:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 18:11:42][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/value.do] onto handler 'countController'
+[INFO] [2018-12-20 18:11:42][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.do] onto handler 'countController'
+[INFO] [2018-12-20 18:11:42][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 637 ms
+[INFO] [2018-12-20 18:14:17][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:11:41 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:14:17][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 18:11:40 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 18:14:32][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 18:14:33][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 18:14:33 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 18:14:33][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 18:14:33][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 18:14:33][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 18:14:34][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1066 ms
+[INFO] [2018-12-20 18:14:34][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 18:14:34][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:14:34 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:14:34][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 18:14:34][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 18:14:34][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/value.do] onto handler 'countController'
+[INFO] [2018-12-20 18:14:34][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.do] onto handler 'countController'
+[INFO] [2018-12-20 18:14:34][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 500 ms
+[INFO] [2018-12-20 18:22:29][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:14:34 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:22:29][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 18:14:33 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 18:22:45][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 18:22:45][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 18:22:45 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 18:22:46][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 18:22:46][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 18:22:46][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 18:22:46][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1148 ms
+[INFO] [2018-12-20 18:22:46][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 18:22:46][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:22:46 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:22:47][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 18:22:47][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 18:22:47][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/value.do] onto handler 'countController'
+[INFO] [2018-12-20 18:22:47][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.do] onto handler 'countController'
+[INFO] [2018-12-20 18:22:47][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 500 ms
+[INFO] [2018-12-20 18:30:19][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:22:46 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:30:19][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 18:22:45 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 18:31:13][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 18:31:13][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 18:31:13 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 18:31:13][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 18:31:14][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 18:31:14][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 18:31:14][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1122 ms
+[INFO] [2018-12-20 18:31:14][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 18:31:14][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:31:14 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:31:14][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 18:31:14][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 18:31:15][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/value.do] onto handler 'countController'
+[INFO] [2018-12-20 18:31:15][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/update.do] onto handler 'countController'
+[INFO] [2018-12-20 18:31:15][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 466 ms
+[INFO] [2018-12-20 18:37:22][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:31:14 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:37:22][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 18:31:13 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 18:37:40][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 18:37:40][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 18:37:40 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 18:37:40][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 18:37:41][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 18:37:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 18:37:41][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1082 ms
+[INFO] [2018-12-20 18:37:41][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 18:37:41][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:37:41 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:37:41][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 18:37:41][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 18:37:41][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/value.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.Map com.spring.controller.CountController.jd(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 18:37:41][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/update.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.spring.controller.CountController.update_count(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 18:37:42][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:37:41 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:37:42][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:37:41 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:37:42][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 910 ms
+[INFO] [2018-12-20 18:38:24][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 18:37:41 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 18:38:24][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 18:37:40 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 19:25:37][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 19:25:37][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 19:25:37 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 19:25:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 19:25:38][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 19:25:38][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 19:25:38][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1023 ms
+[INFO] [2018-12-20 19:25:38][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 19:25:38][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 19:25:38 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 19:25:38][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 19:25:38][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 19:25:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/value.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.Map com.spring.controller.CountController.jd(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 19:25:38][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/update.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.spring.controller.CountController.update_count(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 19:25:39][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 19:25:38 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 19:25:39][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 19:25:38 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 19:25:39][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 754 ms
+[INFO] [2018-12-20 19:28:04][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 19:25:38 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 19:28:04][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 19:25:37 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 19:28:20][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 19:28:20][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 19:28:20 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 19:28:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 19:28:20][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 19:28:20][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 19:28:21][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 996 ms
+[INFO] [2018-12-20 19:28:21][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 19:28:21][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 19:28:21 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 19:28:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 19:28:21][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 19:28:21][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/value.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.Map com.spring.controller.CountController.jd(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 19:28:21][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/update.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.spring.controller.CountController.update_count(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 19:28:21][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 19:28:21 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 19:28:21][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 19:28:21 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 19:28:22][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 793 ms
+[INFO] [2018-12-20 19:28:45][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 19:28:21 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 19:28:45][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 19:28:20 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 20:29:52][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 20:29:52][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 20:29:52 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 20:29:52][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 20:29:53][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 20:29:53][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 20:29:53][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1124 ms
+[INFO] [2018-12-20 20:29:53][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 20:29:53][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:29:53 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:29:53][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 20:29:54][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 20:29:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/value.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.Map com.spring.controller.CountController.jd(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 20:29:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/update.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.spring.controller.CountController.update_count(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 20:29:54][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:29:53 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:29:55][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:29:53 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:29:55][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 1296 ms
+[INFO] [2018-12-20 20:31:25][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:29:53 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:31:25][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 20:29:52 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 20:33:20][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 20:33:20][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 20:33:20 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 20:33:20][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 20:33:21][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 20:33:21][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 20:33:21][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1370 ms
+[INFO] [2018-12-20 20:33:21][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 20:33:21][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:33:21 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:33:21][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 20:33:21][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 20:33:21][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/value.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.Map com.spring.controller.CountController.jd(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 20:33:21][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/update.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.spring.controller.CountController.update_count(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 20:33:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:33:21 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:33:22][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:33:21 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:33:22][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 649 ms
+[INFO] [2018-12-20 20:34:47][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:33:21 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:34:47][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 20:33:20 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 20:36:25][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2018-12-20 20:36:25][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Thu Dec 20 20:36:25 CST 2018]; root of context hierarchy
+[INFO] [2018-12-20 20:36:25][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2018-12-20 20:36:25][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2018-12-20 20:36:25][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 20:36:26][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 1297 ms
+[INFO] [2018-12-20 20:36:26][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization started
+[INFO] [2018-12-20 20:36:26][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:36:26 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:36:26][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2018-12-20 20:36:26][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2018-12-20 20:36:26][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/update.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.spring.controller.CountController.update_count(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 20:36:26][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/value.do],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.Map com.spring.controller.CountController.jd(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
+[INFO] [2018-12-20 20:36:27][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:36:26 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:36:27][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]Looking for @ControllerAdvice: WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:36:26 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:36:27][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'mvc-dispatcher': initialization completed in 1027 ms
+[INFO] [2018-12-20 20:41:47][org.springframework.web.context.support.XmlWebApplicationContext]Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Thu Dec 20 20:36:26 CST 2018]; parent: Root WebApplicationContext
+[INFO] [2018-12-20 20:41:47][org.springframework.web.context.support.XmlWebApplicationContext]Closing Root WebApplicationContext: startup date [Thu Dec 20 20:36:25 CST 2018]; root of context hierarchy

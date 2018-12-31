@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.dao.TypeCountMapper">
+    <select id="selectCount" resultType="com.spring.pojo.PCount" parameterType="java.lang.String">
+        select * from ${value}
+    </select>
+    <insert id="insertCount" parameterType="com.spring.pojo.PCount" >
+        insert into ${type} values(#{count1},
+                                   #{count2},
+                                   #{count3},
+                                   #{count4},
+                                   #{count5},
+                                   #{count6},
+                                   #{count7})
+    </insert>
+    <update id="updateCount" parameterType="com.spring.pojo.PCount">
+        update ${type} set count1=#{count1},count2=#{count2},count3=#{count3},count4=#{count4},count5=#{count5},count6=#{count6},count7=#{count7}
+    
+    </update>
+
+</mapper>
