@@ -6,4 +6,5 @@
 ##### 主要展示 大数据展示，没有经过排版，把基本写出来了。
 
 视频：
-http://mgimg-ali.oss-cn-beijing.aliyuncs.com/Java/DataDisplay.mp4
+<iframe height=498 width=510 src="http://mgimg-ali.oss-cn-beijing.aliyuncs.com/Java/DataDisplay.mp4" frameborder=0 allowfullscreen></iframe>
+
