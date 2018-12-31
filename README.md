@@ -7,3 +7,4 @@
 
 视频：
 
+http://mgimg-ali.oss-cn-beijing.aliyuncs.com/Java/DataDisplay.mp4
